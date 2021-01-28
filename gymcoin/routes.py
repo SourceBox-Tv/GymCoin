@@ -84,9 +84,9 @@ def login():
             flash('Login Unsuccessful. Please check email and password', 'danger');
             #return redirect(url_for('login'))
     return render_template('login.html', form=form);
-@app.route("/forgot-password")
+@app.route("/forgot")
 def forgotpurchase():
-    return render_template('forgot-password.html', title = "forgot-password");
+    return render_template('forgot.html', title = "forgot");
 
 @app.route("/logout")
 def logout():

@@ -3,4 +3,4 @@ This is GymCoin, the world first blockchain with website mining, you should not 
 
 ***This will later become a cloud mining server website  and we would be first organization to do that***
 
-This is made by company called [Blockchain.io](blockchain.io) owned by programmerShourya
+We are also making company  called [Blockchain.io](blockchain.io) owned by programmerShourya

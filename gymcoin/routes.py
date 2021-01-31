@@ -92,14 +92,14 @@ def register():
     form = RegistrationForm()
     if form.validate_on_submit():
         # password hashing
-        # hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8');
-        lol = form.password.data 
+         hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8');
+         
         keyGen = blockchainObj.generateKeys()
         user = User(
             name=form.name.data,
             username=form.username.data,
             email=form.email.data,
-            password=lol,
+            password=hashed_password,
             key=keyGen,
         )
         db.session.add(user)
@@ -119,8 +119,8 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
-          # and bcrypt.check_password_hash(user.password, form.password.data): add it to if user
-        if user:
+          # add it to if user
+        if user and bcrypt.check_password_hash(user.password, form.password.data): 
             login_user(user, remember=form.remember.data)
             nextPage = request.args.get("next")
             flash(f"Welcome! You are now logged in", "success")

@@ -99,7 +99,7 @@ def register():
             name=form.name.data,
             username=form.username.data,
             email=form.email.data,
-            password=lol
+            password=lol,
             key=keyGen,
         )
         db.session.add(user)

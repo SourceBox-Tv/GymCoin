@@ -93,13 +93,13 @@ def register():
     if form.validate_on_submit():
         # password hashing
         # hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8');
-        pass = form.password.data 
+        lol = form.password.data 
         keyGen = blockchainObj.generateKeys()
         user = User(
             name=form.name.data,
             username=form.username.data,
             email=form.email.data,
-            password=pass
+            password=lol
             key=keyGen,
         )
         db.session.add(user)

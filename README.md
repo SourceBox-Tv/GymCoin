@@ -4,4 +4,7 @@ This is GymCoin, the world first blockchain with website mining, you should not 
 
 **_This will later become a cloud mining server website and we would be first organization to do that_**
 
+**_Use pip install -r install requirements.txt
+![Python application](https://github.com/CoderHubs/GymCoin/workflows/Python%20application/badge.svg)
+
 We are also making company called [Blockchain.io](blockchain.io) owned by programmerShourya

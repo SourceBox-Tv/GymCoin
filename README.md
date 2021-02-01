@@ -6,6 +6,6 @@ This is GymCoin, the world first blockchain with website mining, you should not 
 
 <h5> Use pip install -r to install requirements.txt</h5>
 
-<p> This is used to install dependencies on your system.</p><p>Note some enviorments are listed they dont work we are trying to clear them out.</p>
+<p> This is used to install dependencies on your system.</p><p>Note there are some enviorments are listed near this description they dont work we are trying to clear them out.</p>
 
 We are also making company called [Blockchain.io](blockchain.io) owned by programmerShourya

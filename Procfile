@@ -1,1 +1,1 @@
-web: python run.py runserver
+web:gunicorn gymcoin:__init__

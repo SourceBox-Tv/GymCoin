@@ -9,4 +9,4 @@ This is GymCoin, the world first blockchain with website mining. You don't need 
 
 <p> This is used to install dependencies on your system.</p><p>Note there are some enviorments are listed near this description they dont work we are trying to clear them out.</p>
 
-We are also making company called [Blockchain.io](blockchain.io) owned by programmerShourya
+We are also making company called [Blockchain.io](blockchain.io) owned by programmerShourya and nathan-149

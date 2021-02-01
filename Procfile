@@ -1,1 +1,1 @@
-web:gunicorn run:gymcoin
+web:gunicorn run:GymCoin

@@ -1,1 +1,1 @@
-web:gunicorn run:GymCoin
+web:gunicorn __init__:app

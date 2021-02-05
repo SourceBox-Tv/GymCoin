@@ -1,7 +1,7 @@
 # Blockchain.io Beta Build
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5b9cb5e646824741882cdbdb5479840d)](https://www.codacy.com/gh/CoderHubs/GymCoin/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CoderHubs/GymCoin&amp;utm_campaign=Badge_Grade)
 
-This is GymCoin, the world first blockchain with website mining. You don't need a big computer, or a fancy graphics card to mine. With just a browser and some time, you'll be able to earn GymCoin! Note: It could also take up to 100 minutes to mine depending on the code. This is a big project made possible by CoderHub, and we are not responsible for any loss of your coins. Users must read cryptocurrency policy before buying or using GymCoin.
+This is GymCoin, the world first blockchain with website mining. You don't need a big computer, or a fancy graphics card to mine. With just a browser and some time, you'll be able to earn GymCoin! Note: It could also take up to 10 minutes to mine depending on the code. This is a big project made possible by CoderHub, and we are not responsible for any loss of your coins. Users must read cryptocurrency policy before buying or using GymCoin.
 
 **_This will later become a cloud mining server website and we would be first organization to do that_**
 

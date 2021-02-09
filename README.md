@@ -12,3 +12,4 @@ This is GymCoin, the world first blockchain with website mining. You don't need 
 We are also making company called [Blockchain.io](blockchain.io) owned by programmerShourya.
 
 <h4>Thanks Nathan ang and CoderHubs without you gymcoin would not be possible thank you for you support till this date. </h4>
+its not completely devloped we need more people to develop just want to be part of it send a message in issues

@@ -14,3 +14,5 @@ We are also making company called [Blockchain.io](blockchain.io) owned by progra
 
 <h4>Thanks Nathan ang and CoderHubs without you gymcoin would not be possible thank you for you support till this date. </h4>
 its not completely devloped we need more people to develop just want to be part of it send a message in issues
+
+This blockchain works perfectly on python 3.7 and sometimes on 3.9 rest we don't know it would work some where else

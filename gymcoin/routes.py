@@ -31,7 +31,7 @@ def transaction():
     form = TransactionForm()
     formNL = TransactionFormNotLoggedIn()
     print(form.sender.data, form.reciever.data, form.amount.data, form.key.data)
-    # print("hi");
+    print("hi");
     if form.validate_on_submit():
         print("hi new user")
         print(form.sender.data, form.reciever.data, form.amount.data, form.key.data)
@@ -93,7 +93,7 @@ def register():
     if form.validate_on_submit():
         # password hashing
         hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8');
-         
+
         keyGen = blockchainObj.generateKeys()
         user = User(
             name=form.name.data,
@@ -120,7 +120,7 @@ def login():
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
           # add it to if user
-        if user and bcrypt.check_password_hash(user.password, form.password.data): 
+        if user and bcrypt.check_password_hash(user.password, form.password.data):
             login_user(user, remember=form.remember.data)
             nextPage = request.args.get("next")
             flash(f"Welcome! You are now logged in", "success")

@@ -1,13 +1,10 @@
 import hashlib
 import json
-from textwrap import dedent
-from uuid import uuid4
 import jsonpickle
 from flask import Flask
 from urllib.parse import urlparse
 from Crypto.PublicKey import RSA
 from Crypto.Signature import *
-from time import time
 from datetime import datetime
 import requests
 import time
@@ -32,7 +29,7 @@ class Blockchain (object):
 		maxLength = len(self.chain);
 
 		for node in neighbors:
-			response = requests.get(f'http://{node}/chain');
+			response = requests.get(f('http://{node}/chain'));
 
 			if response.status_code == 200:
 				length = response.json()['length'];
@@ -216,7 +213,7 @@ class Block (object):
 		self.transactions = transactions;
 		self.time = time;
 		self.prev = '';
-		self.nonse = 0;
+		self.nonse = 19;
 		self.gym = self.calculateGym();
 		self.hash = self.calculateHash();
 
@@ -241,7 +238,7 @@ class Block (object):
 		#compute until the beginning of the hash = 0123..difficulty
 		arrStr = map(str, arr);
 		hashPuzzle = ''.join(arrStr);
-		#print(len(hashPuzzle));
+		print(len(hashPuzzle));
 		while self.hash[0:difficulty] != hashPuzzle:
 			self.nonse += 1;
 			self.hash = self.calculateHash();
@@ -295,13 +292,13 @@ class Transaction (object):
 			return False;
 		#print(str(key.publickey().exportKey()));
 		#print(self.sender);
-		#if(str(key.publickey().exportKey()) != str(senderKey.publickey().exportKey())):
+		if(str(key.publickey().exportKey()) != str(senderKey.publickey().exportKey())):
 			print("Transaction attempt to be signed from another wallet");
 			return False;
 
 		#h = MD5.new(self.hash).digest();
 
-		#pkcs1_15.new(key);
+		pkcs1_15.new(key);
 
 		self.signature = "made";
 		#print(key.sign(self.hash, ""));

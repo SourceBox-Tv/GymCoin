@@ -292,13 +292,13 @@ class Transaction (object):
 			return False;
 		#print(str(key.publickey().exportKey()));
 		#print(self.sender);
-		if(str(key.publickey().exportKey()) != str(senderKey.publickey().exportKey())):
+		#if(str(key.publickey().exportKey()) != str(senderKey.publickey().exportKey())):
 			print("Transaction attempt to be signed from another wallet");
 			return False;
 
 		#h = MD5.new(self.hash).digest();
 
-		pkcs1_15.new(key);
+		#pkcs1_15.new(key);
 
 		self.signature = "made";
 		#print(key.sign(self.hash, ""));

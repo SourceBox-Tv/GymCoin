@@ -3,7 +3,7 @@
 
 This is GymCoin, the world first blockchain with website mining. You don't need a big computer, or a fancy graphics card to mine!("But of course mining with good computer increases hash rate you just need some decent pc"). With just a browser and some time, you'll be able to earn GymCoin! Note: It could also take up to 10 minutes to mine depending on the code. This is a big project made possible by CoderHub, and we are not responsible for any loss of your coins. Users must read cryptocurrency policy before buying or using GymCoin.
 
-**_This will later become a cloud mining server website and we would be first organization to do that_**
+**_This will later become a public mining server website and we would be first organization to do that_**
 
 <h5> Use pip install -r to install requirements.txt</h5>
 

@@ -5,7 +5,7 @@ This is GymCoin, the world first blockchain with website mining. You don't need 
 
 **_This will later become a public mining server website and we would be first organization to do that_**
 
-<h5> Use pip install -r to install requirements.txt</h5>
+<h5> Use pip install -r </h5>to install requirements.txt
 
 <p> This is used to install dependencies on your system.</p><p>Note there are some enviorments are listed near this description they dont work we are trying to clear them out.</p>
 

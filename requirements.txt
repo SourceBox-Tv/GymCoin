@@ -1,0 +1,10 @@
+Flask_SQLAlchemy==2.4.4
+Flask_WTF
+jsonpickle
+Flask_Login
+Flask_Bcrypt
+WTForms
+Flask
+requests
+pycryptodome
+email_validator

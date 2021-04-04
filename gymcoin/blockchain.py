@@ -13,7 +13,7 @@ class Blockchain (object):
 	def __init__(self):
 		self.chain = [self.addGenesisBlock()];
 		self.pendingTransactions = [];
-		self.difficulty = 100;
+		self.difficulty = 5;
 		self.minerRewards = 30;
 		self.blockSize = 15;
 		self.nodes = set();
